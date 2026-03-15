@@ -13,7 +13,7 @@ local Player = Players.LocalPlayer
 
 local ChairTween = {}
 ChairTween.currentTween = nil
-ChairTween.DROP_HEIGHT = 6 -- studs above the chair
+ChairTween.DROP_HEIGHT = 13 -- studs above the chair
 
 -- Phase 1: Tween above the closest chair
 function ChairTween.TweenAboveChair(GetAllSeats, GetClosestSeat, tweenSpeed)
