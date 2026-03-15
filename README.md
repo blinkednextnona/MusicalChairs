@@ -32,9 +32,8 @@ A Roblox Musical Chairs automation script with a clean, dark-themed UI. Automati
 ### Quick Load (Recommended)
 Paste this into your executor:
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USERNAME/MusicalChairs/main/src/Main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/blinkednextnona/MusicalChairs/main/src/Main.lua"))()
 ```
-> Replace `YOUR_USERNAME` with your GitHub username.
 
 ### Manual Load
 1. Copy the contents of `src/Main.lua`
