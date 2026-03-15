@@ -255,7 +255,7 @@ local function IsPlayerLocked()
 end
 
 local currentTween = nil
-local DROP_HEIGHT = 6 -- studs above the chair to hover before dropping
+local DROP_HEIGHT = 13 -- studs above the chair to hover before dropping
 
 -- Step 1: Tween ABOVE the closest chair (hovers ~6 studs over it)
 local function TweenAboveChair()
